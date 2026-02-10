@@ -12,9 +12,14 @@ body{
     margin:0px;
     background-color: whitesmoke;
 }
+/* header{
+    background-color: white ;
+} */
 
 .headerhandel{
     background-color: white ;
+    max-width: 1290px;
+    margin: 0 auto;
     display:flex;
     display:grid;
     grid-template-columns: 150px 1fr;
@@ -22,6 +27,7 @@ body{
     font-size: 30px;
     font-weight: bold;
     width: 100%;
+
 }
 
 a{
@@ -60,6 +66,8 @@ div1, div2, div3, div4, div5  p{
 }
 div1, div2, div3, div4, div5{
     margin-top: 100px;
+    max-width: 1290px;
+    margin: 0 auto;
 }
 html{
     scroll-behavior: smooth;
@@ -70,9 +78,46 @@ html{
     margin-top: 30px;
     font-size: x-large;
     text-decoration: underline;
-    
-    
+}
 
+@media(max-width:1040px){
+    .headerhandel{
+        font-size: 20px;
+    }
+    div p{
+    font-size: 20px;
+    }
+    .go_to_top{
+        margin-left: 600px;
+        font-size:smaller;
+    }
+    div1, div2, div3, div4, div5  p{
+        font-size: 30px;
+    }
+    main img{
+    width:100%;
+    }
+    
+}
+
+
+@media(max-width:750px){
+    .headerhandel{
+        font-size: 15px;
+    }
+    div p{
+    font-size: 15px;
+    }
+    .go_to_top{
+        margin-left: 400px;
+        font-size:smaller;
+    }
+    div1, div2, div3, div4, div5  p{
+        font-size: 15px;
+    }
+    main img{
+    width:100%;
+    }
 }
 
 
