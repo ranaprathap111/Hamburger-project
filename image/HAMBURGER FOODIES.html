@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<!-- saved from url=(0073)http://127.0.0.1:5500/project-BURGER/Hamburger.html#Deal%20of%20the%20Day -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HAMBURGER FOODIES</title>
+     
+    <script src="./HAMBURGER FOODIES_files/Hamburger.js" defer=""></script>
+<link rel="stylesheet" href="./HAMBURGER FOODIES_files/Hamburger.css"></head>
+<body>
+    <header class="headerhandel">
+        <div>
+            <img class="logo" src="./HAMBURGER FOODIES_files/logo.svg">
+        </div>
+        <nav class="topic">
+            <span class="close-icon">×</span>
+            <a href="http://127.0.0.1:5500/project-BURGER/Hamburger.html#Top%20Picks"> Top Pick</a>
+            <a href="http://127.0.0.1:5500/project-BURGER/Hamburger.html#Whopper"> Whopper</a>
+            <a href="http://127.0.0.1:5500/project-BURGER/Hamburger.html#Stunner%20Menu"> Stunner Menu</a>
+            <a href="http://127.0.0.1:5500/project-BURGER/Hamburger.html#New%20Foodie%20Collection"> New Foodie Collection</a>
+            <a href="http://127.0.0.1:5500/project-BURGER/Hamburger.html#Deal%20of%20the%20Day"> Deal Of the Day</a>
+        </nav>
+        <div class="hamburger-menu-contanier">
+            <div class="hamburger-menu-bar">
+            <span class="hamburger-icon">☰</span>
+        </div>
+        </div>
+        
+    </header>
+    <main>
+        
+        <div>
+            <section class="hero-img">
+                <img src="./HAMBURGER FOODIES_files/hero-image_1.png">
+                <p>Well, You can't resist anymore!</p>
+            </section>
+    </div>
+     
+    <div1>
+        <section id="Top Picks">
+            <p>Top Picks</p>
+            <img src="./HAMBURGER FOODIES_files/burger-1.png">
+        </section>  
+    </div1>
+
+    <div2>
+        <section id="Whopper">
+            <p>Whopper</p>
+            <img src="./HAMBURGER FOODIES_files/burger-2.png">
+        </section>
+    </div2>
+
+    <div3>
+        <section id="Stunner Menu">
+            <p>Stunner Menu</p>
+            <img src="./HAMBURGER FOODIES_files/burger-3.png">
+        </section>    
+    </div3>
+
+    <div4>
+        <section id="New Foodie Collection">
+            <p>New Foodie Collection</p>
+            <img src="./HAMBURGER FOODIES_files/burger-4.png">
+        </section>
+    </div4>
+
+    <div5>
+        <section id="Deal of the Day">
+            <p>Deal of the Day</p>
+            <img src="./HAMBURGER FOODIES_files/burger-5a.jpg">
+        </section>
+    </div5>
+    </main>
+    <h3 class="go_to_top"><a href="http://127.0.0.1:5500/project-BURGER/Hamburger.html#">GO TO TOP</a></h3>
+    <p>made with ❤️ by Ranaprathap</p>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+<audio class="audio-output" style="display: none;"></audio><div id="volume-booster-visusalizer">
+                    <div class="sound">
+                        <div class="sound-icon"></div>
+                        <div class="sound-wave sound-wave_one"></div>
+                        <div class="sound-wave sound-wave_two"></div>
+                        <div class="sound-wave sound-wave_three"></div>
+                    </div>
+                    <div class="segments-box">
+                        <div data-range="1-20" class="segment"><span></span></div>
+                        <div data-range="21-40" class="segment"><span></span></div>
+                        <div data-range="41-60" class="segment"><span></span></div>
+                        <div data-range="61-80" class="segment"><span></span></div>
+                        <div data-range="81-100" class="segment"><span></span></div>
+                    </div>
+                </div></body></html>
